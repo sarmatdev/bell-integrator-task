@@ -1,5 +1,7 @@
 # bell-integrator-task
 
+API для приложения находится здесь — https://github.com/sarmatdev/bell-integrator-api
+
 ## Project setup
 ```
 yarn install
