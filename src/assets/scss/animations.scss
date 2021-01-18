@@ -1,0 +1,44 @@
+.fade-in-right-leave-to {
+  opacity: 0;
+  transition: opacity .1s;
+}
+
+.fade-in-right-enter {
+  opacity: 0;
+  transform: translate3d(40px, 0, 0);
+}
+
+.fade-in-right-enter-to {
+  opacity: 0;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+  animation-name: fadeInRight;
+}
+
+// List animation
+.list-enter-active,
+.list-leave-active,
+.list-move {
+  transition: 200ms ease;
+  transition-property: opacity, transform;
+}
+
+.list-enter {
+  opacity: 0;
+  transform: translateX(50px) scaleY(0.5);
+}
+
+.list-enter-to {
+  opacity: 1;
+  transform: translateX(0) scaleY(1);
+}
+
+.list-leave-active {
+  position: absolute;
+}
+
+.list-leave-to {
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: center top;
+}
