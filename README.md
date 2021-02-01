@@ -1,5 +1,6 @@
 # bell-integrator-task
 
+Демо доступно по ссылке — https://cocky-shannon-024a14.netlify.app/
 API для приложения находится здесь — https://github.com/sarmatdev/bell-integrator-api
 
 ## Project setup
